@@ -4,7 +4,7 @@ var mongoose=require('mongoose');
 var cors=require('cors');
 var bodyparser=require('body-parser');
 var app=express();
-var port=process.env.PORT||8080;
+var port=process.env.PORT || 8080;
 var host='0.0.0.0';
 const routes=require('./routers/index');
 
